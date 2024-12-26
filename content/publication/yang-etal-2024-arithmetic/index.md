@@ -11,7 +11,7 @@ publication_types:
 publication: '*Proceedings of the 2024 Conference of the North American Chapter of
   the Association for Computational Linguistics: Human Language Technologies (Volume
   2: Short Papers)*'
-doi: 10.18653/v1/2024.naacl-short.61
+# doi: 10.18653/v1/2024.naacl-short.61
 abstract: Instructing large language models (LLMs) to solve elementary school math
   problems has shown great success using Chain of Thought (CoT). However, the CoT
   approach relies on an LLM to generate a sequence of arithmetic calculations which
@@ -25,13 +25,16 @@ abstract: Instructing large language models (LLMs) to solve elementary school ma
   Prolog, we propose to permute the ground truth predicates for more robust LLM training
   via data augmentation.
 links:
+- name: arXiv
+  url: https://arxiv.org/abs/2405.17893
 - name: URL
   url: https://aclanthology.org/2024.naacl-short.61
 url_code: https://github.com/yxc-cyber/ProPer
 url_dataset: https://huggingface.co/datasets/Thomas-X-Yang/gsm8k-prolog
 url_video: https://doi.org/10.48448/bntm-rr36
 image:
-  caption: ' Overview of Prolog generation for arithmetic reasoning with large language models.'
+  caption: 'An overview of Prolog generation for arithmetic reasoning with large language models.'
   focal_point: ''
   preview_only: false
+featured: true
 ---

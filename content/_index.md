@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: cherry-blossom.jpg
           filters:
             brightness: 1.0
           size: cover
@@ -32,14 +32,24 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: My Research
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am currently a Master's student in Computer Science at University of Illinois at Urbana-Champaign (UIUC), 
+        supervised by [Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan). 
+        Previously, I was an undergraduate student at New York University Shanghai, majoring in Computer Science and 
+        minoring in Mathematics, supervised by 
+        [Professor Yik-Cheung (Wilson) Tam](https://shanghai.nyu.edu/academics/faculty/directory/yik-cheung-wilson-tam).
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        At New York University Shanghai, I conducted research on neural symbolic methods for boosting large language 
+        models' reasoning ability and investigated the advantage of using Prolog langauge (a logic programming langauge) 
+        as the generation output in terms of data augmentation for finetunining. After that, I explored how large language 
+        models could be used to solve dialogua state tracking, which is a key component in task-oriented dialogues, and 
+        witnessed a major improvement compared with previous methods.
+
+        Now I have joined the ConvAI Lab at UIUC to explore the how large language models could reshape the form of 
+        conversational AI. My research interest primarily lies in AI Agents and machine reasoning. If you are interested 
+        in my research demonstrated below or would like to collaborate, please feel free to reach out to me 😃!
     design:
       columns: '1'
   - block: collection
@@ -63,16 +73,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   - block: collection
     id: news
     content:

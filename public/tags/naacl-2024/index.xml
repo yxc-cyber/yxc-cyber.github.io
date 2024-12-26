@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NAACL 2024 | Xiaocheng Yang</title>
+    <link>http://localhost:1313/tags/naacl-2024/</link>
+      <atom:link href="http://localhost:1313/tags/naacl-2024/index.xml" rel="self" type="application/rss+xml" />
+    <description>NAACL 2024</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>NAACL 2024</title>
+      <link>http://localhost:1313/tags/naacl-2024/</link>
+    </image>
+    
+    <item>
+      <title>Coming to the end of NAACL 2024</title>
+      <link>http://localhost:1313/post/naacl-2024-3/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/naacl-2024-3/</guid>
+      <description>&lt;p&gt;It feels great to meet so many new friends who study or work in the same domain. I am looking forward
+to seeing them again at future conferences and having more other connections with new friends.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>At NAACL 2024 Now</title>
+      <link>http://localhost:1313/post/naacl-2024-2/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/naacl-2024-2/</guid>
+      <description>&lt;p&gt;I am at NAACL 2024 now with my teammate &lt;a href=&#34;https://balechen.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bingsen Chen&lt;/a&gt;. The vibe at the conference here is great.
+It&amp;rsquo;s great to see people doing so many different topics and having discussions and connections with them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ready for NAACL 2024</title>
+      <link>http://localhost:1313/post/naacl-2024/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/naacl-2024/</guid>
+      <description>&lt;p&gt;I will be attending NAACL 2024 in Mexico City. Prolog is a logic language designed for logical inference. But it looks like it has
+faded out of public view. At NAACL 2024, I will present my work on large language model arithmetic reasoning via Prolog generation
+and data argumentation via Prolog code permutation. This method is named as &lt;strong&gt;ProPer&lt;/strong&gt; (Prolog generation and permutation). Thanks
+teammate &lt;a href=&#34;https://balechen.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bingsen Chen&lt;/a&gt; for coming up with this nice abbreviation! The experiments have shown that
+Prolog could be a new tool for language models to use to tackle reasoning problems that have been long troubling those equiped with
+the chain-of-thought method.&lt;/p&gt;
+&lt;p&gt;Cannot wait to see peers and colleagues in person!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
