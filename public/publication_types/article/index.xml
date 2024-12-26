@@ -5,12 +5,28 @@
     <link>http://localhost:1313/publication_types/article/</link>
       <atom:link href="http://localhost:1313/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Article</title>
       <link>http://localhost:1313/publication_types/article/</link>
     </image>
+    
+    <item>
+      <title>EscapeBench: Pushing Language Models to Think Outside the Box</title>
+      <link>http://localhost:1313/publication/qian-2024-escapebenchpushinglanguagemodels/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/qian-2024-escapebenchpushinglanguagemodels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents</title>
+      <link>http://localhost:1313/publication/dongre-2024-respactharmonizingreasoningspeaking/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/dongre-2024-respactharmonizingreasoningspeaking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An example preprint / working paper</title>

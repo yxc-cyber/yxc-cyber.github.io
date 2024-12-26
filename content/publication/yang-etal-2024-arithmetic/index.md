@@ -4,7 +4,7 @@ authors:
 - Xiaocheng Yang
 - Bingsen Chen
 - Yik-Cheung Tam
-date: '2024-06-01'
+date: '2024-06-19'
 publishDate: '2024-12-26T08:43:15.281869Z'
 publication_types:
 - paper-conference
@@ -27,4 +27,11 @@ abstract: Instructing large language models (LLMs) to solve elementary school ma
 links:
 - name: URL
   url: https://aclanthology.org/2024.naacl-short.61
+url_code: https://github.com/yxc-cyber/ProPer
+url_dataset: https://huggingface.co/datasets/Thomas-X-Yang/gsm8k-prolog
+url_video: https://doi.org/10.48448/bntm-rr36
+image:
+  caption: ' Overview of Prolog generation for arithmetic reasoning with large language models.'
+  focal_point: ''
+  preview_only: false
 ---
