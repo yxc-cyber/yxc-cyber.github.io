@@ -41,6 +41,8 @@ profiles:
   #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/yxc-cyber
+  - icon: brands/hf
+    url: https://huggingface.co/Thomas-X-Yang
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/xiaocheng-yang-1a68aa20b/
   - icon: academicons/google-scholar
