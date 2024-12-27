@@ -1,9 +1,11 @@
 ---
 # Display name
 title: 杨孝程
+# title: 楊孝程
 
 # Name pronunciation (optional)
 name_pronunciation: Yang Xiao Cheng
+# name_pronunciation: やん　しょう　ちぇん
 
 # Full name (for SEO)
 first_name: Xiaocheng
