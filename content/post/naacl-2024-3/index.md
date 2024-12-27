@@ -11,4 +11,4 @@ image:
 ---
 
 It feels great to meet so many new friends who study or work in the same domain. I am looking forward 
-to seeing them again at future conferences and having more other connections with new friends.
+to seeing them again at future conferences and having connections with more new friends.
