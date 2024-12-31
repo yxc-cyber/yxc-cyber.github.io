@@ -76,7 +76,7 @@ education:
       GPA: 4.0/4.0
 
       Courses included:
-      - Adv Topics in NLP
+      - Advanced Topics in NLP
       - Numerical Analysis
       - Text Information Systems
   - area: BS Computer Science
