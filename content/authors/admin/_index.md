@@ -26,7 +26,7 @@ role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Illinois at Urbana-Champaign
+  - name: University of Illinois Urbana-Champaign
     url: https://siebelschool.illinois.edu/
 
 # Social network links
@@ -69,7 +69,7 @@ education:
   #     text: 'Read Thesis'
   #     url: 'https://example.com'
   - area: MS Computer Science
-    institution: University of Illinois at Urbana-Champaign
+    institution: University of Illinois Urbana-Champaign
     date_start: 2024-08-21
     date_end: ''
     summary: |
@@ -93,7 +93,7 @@ education:
 
 work:
   - position: Graduate Research Assistant
-    company_name: University of Illinois at Urbana-Champaign
+    company_name: University of Illinois Urbana-Champaign
     company_url: ''
     company_logo: ''
     date_start: 2024-08-21
@@ -191,7 +191,7 @@ awards:
 
 ## About Me
 
-Xiaocheng Yang is a Master's student at University of Illinois at Urbana-Champaign (UIUC) 
+Xiaocheng Yang is a Master's student at University of Illinois Urbana-Champaign (UIUC) 
 and a research assistant at the UIUC ConvAI Lab under the supervision of 
 [Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan). 
 His research interests include conversational AI, AI agents and machine reasoning.
