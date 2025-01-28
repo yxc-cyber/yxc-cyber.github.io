@@ -85,7 +85,7 @@ education:
     date_end: 2024-05-18
     summary: |
       GPA: 3.919/4.0
-    
+  
       Courses included:
       - Natural Language Processing
       - Reinforcement Learning
@@ -192,5 +192,5 @@ awards:
 
 Xiaocheng Yang is a Master's student at University of Illinois Urbana-Champaign (UIUC)
 and a research assistant at the UIUC ConvAI Lab under the supervision of
-[Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan) and [Professor Dilek Hakkani-Tür]([Dilek Hakkani-Tur | Siebel School of Computing and Data Science | Illinois](https://siebelschool.illinois.edu/about/people/all-faculty/dilek)).
+[Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan) and [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/all-faculty/dilek).
 His research interests include conversational AI, AI agents and machine reasoning.

@@ -36,7 +36,7 @@ sections:
       subtitle: ''
       text: |-
         I am currently a Master's student in Computer Science at University of Illinois at Urbana-Champaign (UIUC), 
-        supervised by [Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan). 
+        supervised by [Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan) and [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/all-faculty/dilek). 
         Previously, I was an undergraduate student at New York University Shanghai, majoring in Computer Science and 
         minoring in Mathematics, supervised by 
         [Professor Yik-Cheung (Wilson) Tam](https://shanghai.nyu.edu/academics/faculty/directory/yik-cheung-wilson-tam).
@@ -122,7 +122,7 @@ sections:
         <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
         Easily build anything with blocks - no-code required!
-        
+  
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
         text: Get Started
