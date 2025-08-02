@@ -17,14 +17,28 @@
     abstract = "Instructing large language models (LLMs) to solve elementary school math problems has shown great success using Chain of Thought (CoT). However, the CoT approach relies on an LLM to generate a sequence of arithmetic calculations which can be prone to cascaded calculation errors. We hypothesize that an LLM should focus on extracting predicates and generating symbolic formulas from the math problem description so that the underlying calculation can be done via an external code interpreter. We investigate using LLM to generate Prolog programs to solve mathematical questions. Experimental results show that our Prolog-based arithmetic problem-solving outperforms CoT generation in the GSM8K benchmark across three distinct LLMs. In addition, given the insensitive ordering of predicates and symbolic formulas in Prolog, we propose to permute the ground truth predicates for more robust LLM training via data augmentation.",
 }
 
-@misc{dongre2024respactharmonizingreasoningspeaking,
-      title={ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents}, 
-      author={Vardhan Dongre and Xiaocheng Yang and Emre Can Acikgoz and Suvodip Dey and Gokhan Tur and Dilek Hakkani-Tür},
-      year={2024},
-      eprint={2411.00927},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.00927}, 
+@inproceedings{dongre-etal-2025-respact,
+    title = "{R}e{S}p{A}ct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational {AI} Agents",
+    author = "Dongre, Vardhan  and
+      Yang, Xiaocheng  and
+      Acikgoz, Emre Can  and
+      Dey, Suvodip  and
+      Tur, Gokhan  and
+      Hakkani-Tur, Dilek",
+    editor = "Torres, Maria Ines  and
+      Matsuda, Yuki  and
+      Callejas, Zoraida  and
+      del Pozo, Arantza  and
+      D'Haro, Luis Fernando",
+    booktitle = "Proceedings of the 15th International Workshop on Spoken Dialogue Systems Technology",
+    month = may,
+    year = "2025",
+    address = "Bilbao, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.iwsds-1.7/",
+    pages = "72--102",
+    ISBN = "979-8-89176-248-0",
+    abstract = "Large language model (LLM)-based agents have been increasingly used to interact with external environments (e.g., games, APIs, etc.) and solve tasks. However, current frameworks do not enable these agents to work with users and interact with them to align on the details of their tasks and reach user-defined goals; instead, in ambiguous situations, these agents may make decisions based on assumptions. This work introduces ReSpAct (Reason, Speak, and Act), a novel framework that synergistically combines the essential skills for building task-oriented ``conversational'' agents. ReSpAct addresses this need for agents, expanding on the ReAct approach. ReSpAct framework enables agents to interpret user instructions, reason about complex tasks, execute appropriate actions and engage in dynamic dialogue to seek guidance, clarify ambiguities, understand user preferences, resolve problems, and use the intermediate feedback and responses of users to update their plans. We evaluated ReSpAct with GPT-4 in environments supporting user interaction, such as task-oriented dialogue (MultiWOZ) and interactive decision-making (Alfworld, WebShop), ReSpAct is flexible enough to incorporate dynamic user feedback and addresses prevalent issues like error propagation and agents getting stuck in reasoning loops. This results in more interpretable, human-like task-solving trajectories than baselines relying solely on reasoning traces. In two interactive decision-making benchmarks, AlfWorld and WebShop, ReSpAct outperforms strong reasoning-only method ReAct by an absolute success rate of 6{\%} and 4{\%}, respectively. In the task-oriented dialogue benchmark MultiWOZ, ReSpAct improved Inform and Success scores by 5.5{\%} and 3{\%}, respectively."
 }
 
 @inproceedings{qian-etal-2025-escapebench,
