@@ -27,22 +27,79 @@
       url={https://arxiv.org/abs/2411.00927}, 
 }
 
-@misc{qian2024escapebenchpushinglanguagemodels,
-      title={EscapeBench: Pushing Language Models to Think Outside the Box}, 
-      author={Cheng Qian and Peixuan Han and Qinyu Luo and Bingxiang He and Xiusi Chen and Yuji Zhang and Hongyi Du and Jiarui Yao and Xiaocheng Yang and Denghui Zhang and Yunzhu Li and Heng Ji},
-      year={2024},
-      eprint={2412.13549},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.13549}, 
+@inproceedings{qian-etal-2025-escapebench,
+    title = "{E}scape{B}ench: Towards Advancing Creative Intelligence of Language Model Agents",
+    author = "Qian, Cheng  and
+      Han, Peixuan  and
+      Luo, Qinyu  and
+      He, Bingxiang  and
+      Chen, Xiusi  and
+      Zhang, Yuji  and
+      Du, Hongyi  and
+      Yao, Jiarui  and
+      Yang, Xiaocheng  and
+      Zhang, Denghui  and
+      Li, Yunzhu  and
+      Ji, Heng",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.39/",
+    pages = "798--820",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Language model agents excel in long-session planning and reasoning, but existing benchmarks primarily focus on goal-oriented tasks with explicit objectives, neglecting creative adaptation in unfamiliar environments. To address this, we introduce EscapeBench{---}a benchmark suite of room escape game environments designed to challenge agents with creative reasoning, unconventional tool use, and iterative problem-solving to uncover implicit goals. Our results show that current LM models, despite employing working memory and Chain-of-Thought reasoning, achieve only 15{\%} average progress without hints, highlighting their limitations in creativity. To bridge this gap, we propose EscapeAgent, a framework designed to enhance creative reasoning through Foresight (innovative tool use) and Reflection (identifying unsolved tasks). Experiments show that EscapeAgent can execute action chains over 1,000 steps while maintaining logical coherence. It navigates and completes games with up to 40{\%} fewer steps and hints, performs robustly across difficulty levels, and achieves higher action success rates with more efficient and innovative puzzle-solving strategies."
 }
 
-@misc{zhu2025multiagentbenchevaluatingcollaborationcompetition,
-      title={MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents}, 
-      author={Kunlun Zhu and Hongyi Du and Zhaochen Hong and Xiaocheng Yang and Shuyi Guo and Zhe Wang and Zhenhailong Wang and Cheng Qian and Xiangru Tang and Heng Ji and Jiaxuan You},
+@inproceedings{zhu-etal-2025-multiagentbench,
+    title = "{M}ulti{A}gent{B}ench : Evaluating the Collaboration and Competition of {LLM} agents",
+    author = "Zhu, Kunlun  and
+      Du, Hongyi  and
+      Hong, Zhaochen  and
+      Yang, Xiaocheng  and
+      Guo, Shuyi  and
+      Wang, Zhe  and
+      Wang, Zhenhailong  and
+      Qian, Cheng  and
+      Tang, Robert  and
+      Ji, Heng  and
+      You, Jiaxuan",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.421/",
+    pages = "8580--8622",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Large Language Models (LLMs) have shown remarkable capabilities as autonomous agents; yet existing benchmarks either focus on single-agent tasks or are confined to narrow domains, failing to capture the dynamics of multi-agent coordination and competition. In this paper, we introduce MultiAgentBench, a comprehensive benchmark designed to evaluate LLM-based multi-agent systems across diverse, interactive scenarios. Our framework measures not only task completion but also the quality of collaboration and competition using novel, milestone-based key performance indicators. Moreover, we evaluate various coordination protocols (including star, chain, tree, and graph topologies) and innovative strategies such as group discussion and cognitive planning. Notably, cognitive planning improves milestone achievement rates by 3{\%}. Code and dataset will be made publicly available. Code and datasets are publicavailable at https://github.com/ulab-uiuc/MARBLE"
+}
+
+@misc{bozdag2025readsystematicsurveycomputational,
+      title={Must Read: A Systematic Survey of Computational Persuasion}, 
+      author={Nimet Beyza Bozdag and Shuhaib Mehri and Xiaocheng Yang and Hyeonjeong Ha and Zirui Cheng and Esin Durmus and Jiaxuan You and Heng Ji and Gokhan Tur and Dilek Hakkani-Tür},
       year={2025},
-      eprint={2503.01935},
+      eprint={2505.07775},
       archivePrefix={arXiv},
-      primaryClass={cs.MA},
-      url={https://arxiv.org/abs/2503.01935}, 
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.07775}, 
+}
+
+@misc{mehri2025goalalignmentllmbaseduser,
+      title={Goal Alignment in LLM-Based User Simulators for Conversational AI}, 
+      author={Shuhaib Mehri and Xiaocheng Yang and Takyoung Kim and Gokhan Tur and Shikib Mehri and Dilek Hakkani-Tür},
+      year={2025},
+      eprint={2507.20152},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.20152}, 
 }
