@@ -13,4 +13,5 @@ links:
   url: https://arxiv.org/abs/2507.22410
 - name: URL
   url: https://arxiv.org/abs/2507.22410
+url_code: https://github.com/uiuc-conversational-ai-lab/CELaRAI_demo
 ---
