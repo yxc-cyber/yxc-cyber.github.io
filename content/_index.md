@@ -47,7 +47,7 @@ sections:
         models could be used to solve dialogua state tracking, which is a key component in task-oriented dialogues, and 
         witnessed a major improvement compared with previous methods.
 
-        Now I have joined the ConvAI Lab at UIUC to explore the how large language models could reshape the form of 
+        Now I have joined the [ConvAI Lab](https://uiuc-conversational-ai-lab.github.io/) at UIUC to explore how large language models could reshape the form of 
         conversational AI. My research interest primarily lies in AI Agents and machine reasoning. If you are interested 
         in my research demonstrated below or would like to collaborate, please feel free to reach out to me 😃!
     design:
