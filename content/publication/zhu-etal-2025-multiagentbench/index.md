@@ -31,6 +31,14 @@ abstract: Large Language Models (LLMs) have shown remarkable capabilities as aut
   dataset will be made publicly available. Code and datasets are publicavailable at
   https://github.com/ulab-uiuc/MARBLE
 links:
+- name: arXiv
+  url: https://arxiv.org/abs/2503.01935
 - name: URL
   url: https://aclanthology.org/2025.acl-long.421/
+url_code: https://github.com/MultiagentBench/MARBLE
+image:
+  caption: "MARBLE: showcasing interactions between task information, persona data, domain databases, memory modules, and the environment through the coordinate engine and cognitive module."
+  focal_point: ''
+  preview_only: false
+featured: true
 ---

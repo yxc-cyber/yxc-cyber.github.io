@@ -34,6 +34,14 @@ abstract: Language model agents excel in long-session planning and reasoning, bu
   hints, performs robustly across difficulty levels, and achieves higher action success
   rates with more efficient and innovative puzzle-solving strategies.
 links:
+- name: arXiv
+  url: https://arxiv.org/abs/2412.13549
 - name: URL
   url: https://aclanthology.org/2025.acl-long.39/
+url_code: https://github.com/qiancheng0/EscapeBench
+image:
+  caption: "An illustration the EscapeBench game engine design, and the components's relations with the action space."
+  focal_point: ''
+  preview_only: false
+featured: true
 ---
