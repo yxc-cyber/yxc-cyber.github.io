@@ -1,0 +1,14 @@
+This is a repo for my "arknights:endfield"-styled personal webpage. It will be hosted on github.
+
+# Overview
+The background is a white base with gray contour lines. At the very top is a dark gray docker; on the left is the name, and on the right are Intro, News, Selected Publication, and Opensource Project. Click any one of them will make the page jump to the corresponding section. The docker is always on the top of the screen. Next, with some distance, there is a very thick bright yellow horizontal bar. On the left side of the horizontal bar, a little away from the far left, is my portrait. The outermost part of the portrait is framed with a thin black line, shaped as a rounded rectangle, but the corners are still relatively sharp. Inside the frame, there are two more rounded rectangular frames with several breaks as decoration. The bottom of the portrait sits within the yellow bar, close to the bottom edge of the yellow bar, while the top of the portrait extends above the yellow bar. To the right of the portrait is my name in English, extremely large, made up of gray diagonal lines, in all capital letters. The bottom of the name is higher than the midline of the yellow bar, and the upper part of the name that exceeds the yellow bar is directly cut off, without any part showing outside the yellow bar. Below the name, my research interests and education are written. Following this section are the sections Intro, News, Selected Publication, and Opensource Project. Unlike the first section, each of the following sections is enclosed in semi-transparent to opaque rounded rectangles, with relatively sharp corners. Each title of the following sections is accompanied by a square dot on the left and a horizontal square bar on the right as decorations. The square dot and the bar share the same height as the title. The dot is yellow while the bar is mainly yellow except that the right most part is small color patches of different colors, like dispersion.
+
+# Material Preparation
+The code for preparing the material source files and the material source files should be placed in the folder `./assets`. If the folder is not there, please create the folder. If the folder is empty, please write python codes for making the corresponding materials. Here is a list of required materials in that folder:
+- Background image: A vector graph. Contour lines with a white background and gray lines.
+- Portrait image: Currently not available. You can leave a placeholder image instead.
+
+I know a lot of visual elements can be rendered by the webpage in real-time. But if you think there are more materials worth being prepared in advance, feel free to prepare them in the fold.
+
+# Feature for Updating the Webpage
+It is possible that I update any text in the webpage, especially the Selected Publication. So you need to provide a handy python program to allow me to update the webpage easily.

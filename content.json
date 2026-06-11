@@ -1,0 +1,158 @@
+{
+  "site": {
+    "nav_name": "Xiaocheng Yang",
+    "page_title": "Xiaocheng Yang | Personal Webpage",
+    "hero_name": "Xiaocheng Yang",
+    "tagline": "Researcher / Engineer / Builder"
+  },
+  "profile": {
+    "portrait": "assets/portrait.jpg",
+    "researcher_star_count": 6,
+    "interests": [
+      "Natural Language Processing",
+      "Conversational AI",
+      "AI Agents"
+    ],
+    "education": [
+      "Ph.D. Candidate, College of William & Mary",
+      "MS Computer Science, University of Illinois Urbana-Champaign",
+      "BS Computer Science, New York University Shanghai"
+    ]
+  },
+  "contacts": [
+    {
+      "label": "resume",
+      "url": "assets/resume.pdf"
+    },
+    {
+      "label": "email",
+      "url": "mailto:xyang21@wm.edu"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/yangxiaoch36389"
+    },
+    {
+      "label": "github",
+      "url": "https://github.com/yxc-cyber"
+    },
+    {
+      "label": "linkedin",
+      "url": "https://www.linkedin.com/in/xiaocheng-yang-1a68aa20b"
+    },
+    {
+      "label": "google scholar",
+      "url": "https://scholar.google.com/citations?user=hTt0y8kAAAAJ"
+    }
+  ],
+  "intro": [
+    "I am currently a PhD student in Data Science at College of William & Mary under the supervision of [Professor Qingyun Wang](https://eaglew.github.io). I earned my master's degree in Computer Science at University of Illinois at Urbana-Champaign (UIUC) supervised by [Professor Gokhan Tur](https://siebelschool.illinois.edu/about/people/department-faculty/gokhan) and [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/all-faculty/dilek), and my bachelor's degree in Computer Science with Mathematics minor at New York University Shanghai supervised by [Professor Yik-Cheung (Wilson) Tam](https://shanghai.nyu.edu/cn/academics/faculty/directory/yik-cheung-wilson-tam).",
+    "At New York University Shanghai, I received [Dean's Undergraduate Research Fund (DURF)](https://shanghai.nyu.edu/content/deans-undergraduate-research-fund-durf) and conducted research on neural symbolic methods for boosting large language models' reasoning ability and investigated the advantage of using Prolog langauge (a logic programming langauge) as the generation output in terms of data augmentation for finetunining. After that, I explored how large language models could be used to solve dialogua state tracking, which is a key component in task-oriented dialogues, and witnessed a major improvement compared with previous methods.",
+    "At University of Illinois at Urbana-Champaign, I joined [ConvAI Lab](https://uiuc-conversational-ai-lab.github.io/) and worked on conversational AI and agentic systems. I explored how benign friction in conversation helps conversational AI better assist users. After that, I was particularly interested in multi-agent systems (MAS). I participated in benchmarking MAS covering a comprehensive range of tasks and also proposed a novel method called Gradient-Based Connections (GBC) to optimize the prompts of multi-agent systems, which significantly improved the performance of the system in conversational scenarios. Meanwhile, I participated in [CELaRAI](https://earlyliteracyai.org/) project, where I developed a system to help early literacy education for children using large language models."
+  ],
+  "news": [
+    {
+      "date": "2026-06-01",
+      "text": "I will be at SIGDIAL 2026 in Atlanta, presenting our work of **GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems**. Feel free to reach out if you are interested in this work or want to chat about anything else!"
+    },
+    {
+      "date": "2026-04-14",
+      "text": "I will be joining Professor Qingyun Wang's research group at College of William & Mary as a PhD student starting from Fall 2026."
+    },
+    {
+      "date": "2024-05-17",
+      "text": "I will be at NAACL 2024 in Mexico City, presenting our work of **Arithmetic Reasoning with LLM: Prolog Generation & Permutation**. Feel free to reach out if you are interested in this work or want to chat about anything else!"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Must Read: A Comprehensive Survey of Computational Persuasion",
+      "authors": "Nimet Beyza Bozdag, Shuhaib Mehri, **Xiaocheng Yang**, Hyeonjeong Ha, Zirui Cheng, Esin Durmus, Jiaxuan You, Heng Ji, Gokhan Tur, and Dilek Hakkani-Tür",
+      "venue": "ACM Comput. Surv., 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://doi.org/10.1145/3800687"
+        }
+      ]
+    },
+    {
+      "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
+      "authors": "Shuhaib Mehri, **Xiaocheng Yang**, Takyoung Kim, Gokhan Tur, Shikib Mehri, and Dilek Hakkani-Tür",
+      "venue": "arXiv, 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://arxiv.org/abs/2507.20152"
+        }
+      ]
+    },
+    {
+      "title": "MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents",
+      "authors": "Kunlun Zhu, Hongyi Du, Zhaochen Hong, **Xiaocheng Yang**, Shuyi Guo, Zhe Wang, Zhenhailong Wang, Cheng Qian, Xiangru Tang, Heng Ji, and Jiaxuan You",
+      "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://aclanthology.org/2025.acl-long.421/"
+        }
+      ]
+    },
+    {
+      "title": "EscapeBench: Towards Advancing Creative Intelligence of Language Model Agents",
+      "authors": "Cheng Qian, Peixuan Han, Qinyu Luo, Bingxiang He, Xiusi Chen, Yuji Zhang, Hongyi Du, Jiarui Yao, **Xiaocheng Yang**, Denghui Zhang, Yunzhu Li, and Heng Ji",
+      "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://aclanthology.org/2025.acl-long.39/"
+        }
+      ]
+    },
+    {
+      "title": "ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents",
+      "authors": "Vardhan Dongre, **Xiaocheng Yang**, Emre Can Acikgoz, Suvodip Dey, Gokhan Tur, and Dilek Hakkani-Tur",
+      "venue": "Proceedings of the 15th International Workshop on Spoken Dialogue Systems Technology, 2025",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://aclanthology.org/2025.iwsds-1.7/"
+        }
+      ]
+    },
+    {
+      "title": "Question Generation for Assessing Early Literacy Reading Comprehension",
+      "authors": "**Xiaocheng Yang**, Sumuk Shashidhar, and Dilek Hakkani-Tür",
+      "venue": "10th Workshop on Speech and Language Technology in Education (SLaTE), 2025",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://www.isca-archive.org/slate_2025/yang25b_slate.html"
+        }
+      ]
+    },
+    {
+      "title": "Arithmetic Reasoning with LLM: Prolog Generation & Permutation",
+      "authors": "**Xiaocheng Yang**, Bingsen Chen, and Yik-Cheung Tam",
+      "venue": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers), 2024",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://aclanthology.org/2024.naacl-short.61/"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AgentChord",
+      "description": "AgentChord is a flexible framework for designing, running, and optimizing multi-agent systems. It introduces Gradient-Based Connections (GBC) for automated MAS optimization, provides visualization tools for analyzing the optimization process, integrates with Weights & Biases for experiment tracking, and builds on LiteLLM to support model APIs from multiple providers.",
+      "url": "https://github.com/yxc-cyber/AgentChord"
+    },
+    {
+      "name": "MARBLE",
+      "description": "Multi-Agent CooRdination Backbone with LLM Engine (MARBLE) is a modular and extensible framework for developing, testing, and evaluating LLM-based multi-agent systems. It provides structured simulated environments where agents can communicate, reason, and coordinate to complete tasks collaboratively or competitively.",
+      "url": "https://github.com/ulab-uiuc/MARBLE"
+    }
+  ]
+}
