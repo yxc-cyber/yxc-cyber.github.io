@@ -87,3 +87,7 @@ http://localhost:8000
 This repository is ready for GitHub Pages. Commit the generated `index.html` together with the source files, then enable GitHub Pages for the repository in GitHub settings.
 
 If the site is hosted from the repository root, no additional build step is needed.
+
+## License
+
+This project is released under the [MIT License](LICENSE).
