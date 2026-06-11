@@ -1,4 +1,4 @@
-# Xiaocheng Yang Personal Website
+# Endfield-Styled Personal Website
 
 This repository contains the source for my personal academic website, designed as a static GitHub Pages site with an Arknights: Endfield-inspired visual style.
 
