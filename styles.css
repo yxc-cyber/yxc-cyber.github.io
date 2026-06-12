@@ -137,9 +137,9 @@ a {
   gap: 34px;
   background-color: var(--yellow);
   background-image: url("assets/bg-contours-transparent.svg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center top;
-  background-size: 620px auto;
+  background-size: cover;
   box-shadow: 14px 18px 0 rgba(31, 35, 37, 0.12);
 }
 
@@ -566,7 +566,6 @@ a {
     gap: 0;
     min-height: 0;
     padding: 0 16px 32px;
-    background-size: 430px auto;
   }
 
   .hero-bar::before {
