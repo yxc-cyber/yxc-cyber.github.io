@@ -46,7 +46,7 @@ body {
   pointer-events: none;
   background:
     linear-gradient(rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38)),
-    url("assets/bg-contours-3.svg") center top / 100% 100% no-repeat,
+    url("assets/bg-contours.svg") center top / 100% 100% no-repeat,
     #f6f7f1;
   transform: translate3d(-50%, 0, 0);
   will-change: transform;
@@ -135,7 +135,11 @@ a {
   grid-template-columns: minmax(210px, 280px) minmax(0, 1fr);
   align-items: end;
   gap: 34px;
-  background: var(--yellow);
+  background-color: var(--yellow);
+  background-image: url("assets/bg-contours-transparent.svg");
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: 620px auto;
   box-shadow: 14px 18px 0 rgba(31, 35, 37, 0.12);
 }
 
@@ -562,6 +566,7 @@ a {
     gap: 0;
     min-height: 0;
     padding: 0 16px 32px;
+    background-size: 430px auto;
   }
 
   .hero-bar::before {

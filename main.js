@@ -4,7 +4,7 @@ const sections = navLinks
   .filter(Boolean);
 const backgroundLayer = document.querySelector(".page-background");
 const backgroundImage = new Image();
-backgroundImage.src = "assets/bg-contours-3.svg";
+backgroundImage.src = "assets/bg-contours.svg";
 
 let ticking = false;
 let maxScroll = 0;
