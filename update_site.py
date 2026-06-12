@@ -255,8 +255,9 @@ def render(data: dict[str, object]) -> str:
             <img src="{esc(profile.get("portrait", "assets/portrait-placeholder.svg"))}" alt="Portrait placeholder">
           </div>
           <div class="hero-copy">
-            <div class="name-clip">
-              <h1 class="hero-name" data-name="{esc(site.get("hero_name", ""))}">{esc(site.get("hero_name", ""))}</h1>
+            <div class="name-clip" data-name="{esc(site.get("hero_name", ""))}">
+              <h1 class="hero-name">{esc(site.get("hero_name", ""))}</h1>
+              <span class="solid-name" aria-hidden="true">{esc(site.get("hero_name", ""))}</span>
             </div>
             <div class="hero-icons" aria-hidden="true">
               <img src="assets/researcher.svg" alt="">
