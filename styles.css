@@ -320,6 +320,7 @@ a {
   gap: 0;
   height: 48px;
   width: fit-content;
+  min-width: min(100%, 500px);
   max-width: calc(100% - 22px);
   margin: var(--solid-separator-margin, calc(var(--hero-stack-gap) + 27px - var(--solid-name-clearance) - var(--solid-name-anchor-lift))) 0 0 2px;
   z-index: 2;
@@ -689,6 +690,8 @@ a {
     top: auto;
     justify-self: start;
     height: 30px;
+    min-width: 0;
+    max-width: calc(100% - 10px);
     margin: var(--solid-separator-margin, calc(var(--mobile-hero-gap) + 17px - var(--solid-name-clearance) - var(--solid-name-anchor-lift))) 0 0;
   }
 

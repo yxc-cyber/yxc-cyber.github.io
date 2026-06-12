@@ -126,7 +126,14 @@ function fitHeroStars() {
     const stars = Array.from(row.querySelectorAll(".hero-stars img"));
     stars.forEach((star) => star.classList.remove("is-hidden"));
 
-    const available = row.clientWidth;
+    const copyRect = row.closest(".hero-copy")?.getBoundingClientRect();
+    const barRect = row.closest(".hero-bar")?.getBoundingClientRect();
+    const containerRect = copyRect && copyRect.width > 0 ? copyRect : barRect;
+    const rowRect = row.getBoundingClientRect();
+    const available = containerRect
+      ? Math.max(0, containerRect.right - rowRect.left - 22)
+      : row.clientWidth;
+
     for (let index = stars.length - 1; index >= 0 && row.scrollWidth > available; index -= 1) {
       stars[index].classList.add("is-hidden");
     }
