@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Archivo Black Local";
+  src: url("assets/Archivo_Black/ArchivoBlack-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --ink: #212121;
   --dock: #262a2d;
@@ -10,6 +18,7 @@
   --dispersion-magenta: #FC00F2;
   --dispersion-green: #02FFA3;
   --slash-gray: #434648;
+  --hero-name-font: "Archivo Black Local", Impact, Haettenschweiler, "Arial Black", sans-serif;
   --max-width: 1180px;
   --dock-height: 58px;
   --jump-clearance: 28px;
@@ -276,9 +285,11 @@ a {
   display: inline-block;
   font-size: var(--hero-name-size);
   line-height: 0.96;
+  font-family: var(--hero-name-font);
   letter-spacing: 0;
   text-transform: uppercase;
-  font-weight: 950;
+  font-weight: 400;
+  font-synthesis: none;
   color: transparent;
   background:
     repeating-linear-gradient(
@@ -306,7 +317,9 @@ a {
   -webkit-background-clip: initial;
   background-clip: initial;
   font-size: var(--solid-name-size);
-  font-weight: 950;
+  font-family: var(--hero-name-font);
+  font-weight: 400;
+  font-synthesis: none;
   line-height: 0.9;
   text-transform: uppercase;
   white-space: nowrap;
