@@ -154,5 +154,23 @@
       "description": "Multi-Agent CooRdination Backbone with LLM Engine (MARBLE) is a modular and extensible framework for developing, testing, and evaluating LLM-based multi-agent systems. It provides structured simulated environments where agents can communicate, reason, and coordinate to complete tasks collaboratively or competitively.",
       "url": "https://github.com/ulab-uiuc/MARBLE"
     }
+  ],
+  "misc": [
+    {
+      "title": "Hearthstone",
+      "text": "Outside research, I have also spent time in competitive gaming. One of my favorite memories is reaching Rank 18 on the Hearthstone Americas server, which taught me a lot about strategy, decision-making under uncertainty, and adapting to changing metagames.",
+      "images": [
+        {
+          "src": "assets/hearthstone.jpg",
+          "alt": "Screenshot showing my Hearthstone Americas server ladder rank at Legend Rank 18.",
+          "caption": "Reached Legend Rank 18 on the Hearthstone Americas server."
+        }
+      ]
+    },
+    {
+      "title": "Tennis",
+      "text": "I trained in tennis for three years in high school and still remain impressively bad at it. I do enjoy the sport, though — unfortunately, athletic talent has never been my strongest feature. 🥹",
+      "images": []
+    }
   ]
 }

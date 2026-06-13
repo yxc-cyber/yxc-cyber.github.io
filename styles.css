@@ -520,6 +520,7 @@ a {
 .news-item a,
 .publication a,
 .project a,
+.misc-card a,
 .hero-meta a {
   color: #212121;
   font-weight: 800;
@@ -532,6 +533,7 @@ a {
 .news-item code,
 .publication code,
 .project code,
+.misc-card code,
 .hero-meta code {
   padding: 1px 5px;
   background: rgba(33, 33, 33, 0.08);
@@ -568,17 +570,72 @@ a {
 }
 
 .publication h3,
-.project h3 {
+.project h3,
+.misc-card h3 {
   margin: 0 0 7px;
   font-size: 1.05rem;
 }
 
 .authors,
 .venue,
-.project p {
+.project p,
+.misc-copy {
   margin: 5px 0;
   color: #444b50;
   line-height: 1.55;
+}
+
+.misc-list {
+  display: grid;
+  gap: 16px;
+}
+
+.misc-card {
+  background: rgba(255, 255, 255, 0.58);
+  border-left: 5px solid var(--yellow);
+  padding: 14px 16px 16px;
+}
+
+.misc-copy p {
+  margin: 5px 0;
+}
+
+.misc-copy ul,
+.misc-copy ol {
+  margin: 8px 0 0;
+  padding-left: 1.25rem;
+}
+
+.misc-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.misc-photo {
+  margin: 0;
+  background: rgba(33, 33, 33, 0.07);
+}
+
+.misc-photo-frame {
+  width: 100%;
+  max-height: clamp(240px, 36vw, 460px);
+  overflow: hidden;
+}
+
+.misc-photo-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: margin-top 120ms ease;
+}
+
+.misc-photo figcaption {
+  padding: 8px 10px;
+  color: #444b50;
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .links {

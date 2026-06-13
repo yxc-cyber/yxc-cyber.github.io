@@ -7,6 +7,7 @@ const backgroundImage = new Image();
 backgroundImage.src = "assets/bg-contours.svg";
 const solidNames = Array.from(document.querySelectorAll(".solid-name"));
 const heroIconRows = Array.from(document.querySelectorAll(".hero-icons"));
+const miscPhotoFrames = Array.from(document.querySelectorAll(".misc-photo-frame"));
 
 let ticking = false;
 let maxScroll = 0;
@@ -97,6 +98,7 @@ function updateMeasurements() {
   measureSections();
   updateBackgroundMetrics();
   fitHeroContent();
+  centerMiscPhotos();
 }
 
 function fitSolidNames() {
@@ -171,6 +173,19 @@ function fitHeroContent() {
   fitHeroStars();
 }
 
+function centerMiscPhotos() {
+  miscPhotoFrames.forEach((frame) => {
+    const image = frame.querySelector("img");
+    if (!image) {
+      return;
+    }
+
+    image.style.marginTop = "0";
+    const overflow = image.offsetHeight - frame.clientHeight;
+    image.style.marginTop = overflow > 0 ? `${Math.round(overflow / -2)}px` : "0";
+  });
+}
+
 function updateOnScroll() {
   setActiveNav();
   setBackgroundParallax();
@@ -197,6 +212,10 @@ window.addEventListener("scroll", requestScrollUpdate, { passive: true });
 window.addEventListener("resize", refreshLayout);
 window.addEventListener("load", refreshLayout);
 backgroundImage.addEventListener("load", refreshLayout);
+miscPhotoFrames.forEach((frame) => {
+  const image = frame.querySelector("img");
+  image?.addEventListener("load", refreshLayout);
+});
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     link.blur();

@@ -180,6 +180,39 @@ def project_items(items: list[dict[str, str]]) -> str:
     return "\n".join(blocks)
 
 
+def misc_items(items: list[dict[str, object]]) -> str:
+    blocks = []
+    for item in items:
+        images = item.get("images", [])
+        rendered_images = ""
+        if images:
+            image_blocks = []
+            for image in images:
+                caption = str(image.get("caption", "")).strip()
+                caption_html = f"\n              <figcaption>{inline_md(caption)}</figcaption>" if caption else ""
+                image_blocks.append(
+                    f'''            <figure class="misc-photo">
+              <div class="misc-photo-frame">
+                <img src="{safe_url(image.get("src", "#"))}" alt="{esc(image.get("alt", ""))}">
+              </div>{caption_html}
+            </figure>'''
+                )
+            rendered_images = f'''          <div class="misc-gallery">
+{chr(10).join(image_blocks)}
+          </div>'''
+
+        blocks.append(
+            f'''          <article class="misc-card">
+            <h3>{inline_md(item.get("title", ""))}</h3>
+            <div class="misc-copy">
+{markdown_blocks(item.get("text", ""), "              ")}
+            </div>
+{rendered_images}
+          </article>'''
+        )
+    return "\n".join(blocks)
+
+
 def section(section_id: str, title: str, body: str) -> str:
     return f'''      <section class="section-panel" id="{section_id}">
         <div class="section-title">
@@ -224,6 +257,13 @@ def render(data: dict[str, object]) -> str:
 {project_items(data.get("projects", []))}
         </div>''',
     )
+    misc = section(
+        "misc",
+        "Misc",
+        f'''        <div class="misc-list">
+{misc_items(data.get("misc", []))}
+        </div>''',
+    )
 
     return f'''<!doctype html>
 <html lang="en">
@@ -244,6 +284,7 @@ def render(data: dict[str, object]) -> str:
           <a href="#news">News</a>
           <a href="#publications">Selected Publication</a>
           <a href="#projects">Opensource Project</a>
+          <a href="#misc">Misc</a>
         </nav>
       </div>
     </header>
@@ -288,6 +329,7 @@ def render(data: dict[str, object]) -> str:
 {news}
 {publications}
 {projects}
+{misc}
       </div>
     </main>
 
