@@ -59,8 +59,8 @@ The publication updater:
 
 - sorts publications newest first
 - highlights my name automatically
-- preserves existing `links` in `content.json` for matching papers
-- generates links from BibTeX `url`, `doi`, or `eprint` when no existing links are present
+- completely rebuilds `publications` from `cite.bib`
+- generates links from BibTeX `url`, `doi`, or `eprint`
 
 By default, the name to highlight is read from `site.hero_name` in `content.json`. To override it:
 

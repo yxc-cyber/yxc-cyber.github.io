@@ -77,6 +77,17 @@
       ]
     },
     {
+      "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
+      "authors": "**Xiaocheng Yang**, Abdulrahman Alrabah, Dilek Hakkani-Tür, and Gokhan Tur",
+      "venue": "arXiv, 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://arxiv.org/abs/2606.28187"
+        }
+      ]
+    },
+    {
       "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
       "authors": "Shuhaib Mehri, **Xiaocheng Yang**, Takyoung Kim, Gokhan Tur, Shikib Mehri, and Dilek Hakkani-Tür",
       "venue": "arXiv, 2026",
@@ -84,6 +95,17 @@
         {
           "label": "Link",
           "url": "https://arxiv.org/abs/2507.20152"
+        }
+      ]
+    },
+    {
+      "title": "Question Generation for Assessing Early Literacy Reading Comprehension",
+      "authors": "**Xiaocheng Yang**, Sumuk Shashidhar, and Dilek Hakkani-Tür",
+      "venue": "10th Workshop on Speech and Language Technology in Education (SLaTE), 2025",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://www.isca-archive.org/slate_2025/yang25b_slate.html"
         }
       ]
     },
@@ -117,17 +139,6 @@
         {
           "label": "Link",
           "url": "https://aclanthology.org/2025.iwsds-1.7/"
-        }
-      ]
-    },
-    {
-      "title": "Question Generation for Assessing Early Literacy Reading Comprehension",
-      "authors": "**Xiaocheng Yang**, Sumuk Shashidhar, and Dilek Hakkani-Tür",
-      "venue": "10th Workshop on Speech and Language Technology in Education (SLaTE), 2025",
-      "links": [
-        {
-          "label": "Link",
-          "url": "https://www.isca-archive.org/slate_2025/yang25b_slate.html"
         }
       ]
     },

@@ -277,35 +277,6 @@ def links(fields: dict[str, str]) -> list[dict[str, str]]:
     return result
 
 
-def publication_key(value: object) -> str:
-    return re.sub(r"[^a-z0-9]", "", clean_bibtex(str(value)).lower())
-
-
-def existing_publication_links(publications: object) -> dict[str, list[dict[str, str]]]:
-    if not isinstance(publications, list):
-        return {}
-
-    existing = {}
-    for publication in publications:
-        if not isinstance(publication, dict):
-            continue
-
-        title = publication.get("title")
-        raw_links = publication.get("links")
-        if not title or not isinstance(raw_links, list):
-            continue
-
-        clean_links = []
-        for link in raw_links:
-            if isinstance(link, dict) and link.get("label") and link.get("url"):
-                clean_links.append({"label": str(link["label"]), "url": str(link["url"])})
-
-        if clean_links:
-            existing[publication_key(title)] = clean_links
-
-    return existing
-
-
 def entry_sort_key(entry: dict[str, object]) -> tuple[int, int, str]:
     fields = entry["fields"]
     assert isinstance(fields, dict)
@@ -317,7 +288,6 @@ def entry_sort_key(entry: dict[str, object]) -> tuple[int, int, str]:
 def publication_from_entry(
     entry: dict[str, object],
     aliases: set[str],
-    preserved_links_by_title: dict[str, list[dict[str, str]]],
 ) -> dict[str, object]:
     fields = entry["fields"]
     assert isinstance(fields, dict)
@@ -327,7 +297,7 @@ def publication_from_entry(
         "authors": author_line(fields.get("author", ""), aliases),
         "venue": venue(fields),
     }
-    entry_links = preserved_links_by_title.get(publication_key(title), links(fields))
+    entry_links = links(fields)
     if entry_links:
         publication["links"] = entry_links
     return publication
@@ -340,12 +310,9 @@ def update_publications(
 ) -> None:
     content = json.loads(read_text(content_path))
     aliases = name_aliases(content, name)
-    preserved_links_by_title = existing_publication_links(content.get("publications", []))
     entries = parse_bibtex(read_text(bib_path))
     entries.sort(key=entry_sort_key, reverse=True)
-    content["publications"] = [
-        publication_from_entry(entry, aliases, preserved_links_by_title) for entry in entries
-    ]
+    content["publications"] = [publication_from_entry(entry, aliases) for entry in entries]
     content_path.write_text(json.dumps(content, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Updated {content_path.name} with {len(entries)} publications from {bib_path.name}")
 
