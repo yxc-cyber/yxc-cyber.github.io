@@ -66,6 +66,17 @@
   ],
   "publications": [
     {
+      "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
+      "authors": "Shuhaib Mehri, **Xiaocheng Yang**, Takyoung Kim, Gokhan Tur, Shikib Mehri, and Dilek Hakkani-Tür",
+      "venue": "Transactions of the Association for Computational Linguistics, 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://doi.org/10.1162/TACL.a.687"
+        }
+      ]
+    },
+    {
       "title": "Must Read: A Comprehensive Survey of Computational Persuasion",
       "authors": "Nimet Beyza Bozdag, Shuhaib Mehri, **Xiaocheng Yang**, Hyeonjeong Ha, Zirui Cheng, Esin Durmus, Jiaxuan You, Heng Ji, Gokhan Tur, and Dilek Hakkani-Tür",
       "venue": "ACM Comput. Surv., 2026",
@@ -84,17 +95,6 @@
         {
           "label": "Link",
           "url": "https://arxiv.org/abs/2606.28187"
-        }
-      ]
-    },
-    {
-      "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
-      "authors": "Shuhaib Mehri, **Xiaocheng Yang**, Takyoung Kim, Gokhan Tur, Shikib Mehri, and Dilek Hakkani-Tür",
-      "venue": "arXiv, 2026",
-      "links": [
-        {
-          "label": "Link",
-          "url": "https://arxiv.org/abs/2507.20152"
         }
       ]
     },

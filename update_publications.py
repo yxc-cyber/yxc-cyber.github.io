@@ -247,6 +247,9 @@ def author_line(author_text: str, aliases: set[str]) -> str:
 
 def month_number(value: str) -> int:
     cleaned = clean_bibtex(value).strip().lower()
+    if re.fullmatch(r"\d{1,2}", cleaned):
+        numeric_month = int(cleaned)
+        return numeric_month if 1 <= numeric_month <= 12 else 0
     return MONTHS.get(cleaned, 0)
 
 
@@ -268,12 +271,6 @@ def links(fields: dict[str, str]) -> list[dict[str, str]]:
         result.append({"label": "Link", "url": fields["url"]})
     elif fields.get("doi"):
         result.append({"label": "DOI", "url": f"https://doi.org/{fields['doi']}"})
-
-    arxiv_url = f"https://arxiv.org/abs/{fields['eprint']}" if fields.get("eprint") else ""
-    existing_urls = {item["url"] for item in result}
-    if arxiv_url and arxiv_url not in existing_urls:
-        result.append({"label": "arXiv", "url": f"https://arxiv.org/abs/{fields['eprint']}"})
-
     return result
 
 
