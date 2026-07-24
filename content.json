@@ -66,6 +66,17 @@
   ],
   "publications": [
     {
+      "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
+      "authors": "**Xiaocheng Yang**, Abdulrahman Alrabah, Dilek Hakkani-Tür, and Gokhan Tur",
+      "venue": "Proceedings of the 27th Annual Meeting of the Special Interest Group on Discourse and Dialogue, 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://aclanthology.org/2026.sigdial-1.24/"
+        }
+      ]
+    },
+    {
       "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
       "authors": "Shuhaib Mehri, **Xiaocheng Yang**, Takyoung Kim, Gokhan Tur, Shikib Mehri, and Dilek Hakkani-Tür",
       "venue": "Transactions of the Association for Computational Linguistics, 2026",
@@ -84,17 +95,6 @@
         {
           "label": "Link",
           "url": "https://doi.org/10.1145/3800687"
-        }
-      ]
-    },
-    {
-      "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
-      "authors": "**Xiaocheng Yang**, Abdulrahman Alrabah, Dilek Hakkani-Tür, and Gokhan Tur",
-      "venue": "arXiv, 2026",
-      "links": [
-        {
-          "label": "Link",
-          "url": "https://arxiv.org/abs/2606.28187"
         }
       ]
     },
