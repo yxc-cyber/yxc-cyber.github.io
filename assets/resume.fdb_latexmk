@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1788283318.21678 "c:/Users/Xiaocheng Yang/Documents/Code Files/yxc-cyber.github.io/assets/resume.tex" "resume.pdf" "resume" 1788283320.19135 0
+["pdflatex"] 1788284132.4758 "c:/Users/Xiaocheng Yang/Documents/Code Files/yxc-cyber.github.io/assets/resume.tex" "resume.pdf" "resume" 1788284134.33691 0
   "C:/Users/Xiaocheng Yang/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1788276606 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Xiaocheng Yang/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1788276443 13377474 b451d4827321f4699cda2cb83d270cde ""
   "C:/Users/Xiaocheng Yang/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -82,10 +82,10 @@
   "C:/Users/Xiaocheng Yang/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1780057721 7243 98a9e0737a56460d15d6b41be1ecc3b8 ""
   "C:/Users/Xiaocheng Yang/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Xiaocheng Yang/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Xiaocheng Yang/Documents/Code Files/yxc-cyber.github.io/assets/resume.tex" 1788283316 8972 54e5d13ce9886340c36de41ca704ff31 ""
-  "resume.aux" 1788283319 1086 cbec79c910aa495b5c1573b0f6b17735 "pdflatex"
-  "resume.out" 1788283319 1115 686ac440c542387afa1f7e4482b67323 "pdflatex"
-  "resume.tex" 1788283316 8972 54e5d13ce9886340c36de41ca704ff31 ""
+  "c:/Users/Xiaocheng Yang/Documents/Code Files/yxc-cyber.github.io/assets/resume.tex" 1788284133 9364 ce324c88aaca4ff97a834965bfb662ff ""
+  "resume.aux" 1788284134 1202 4a4b2177a75b3238362d0a1e1b6108a0 "pdflatex"
+  "resume.out" 1788284134 1256 a7da13f412eaab80595131a5f9efe671 "pdflatex"
+  "resume.tex" 1788284133 9364 ce324c88aaca4ff97a834965bfb662ff ""
   (generated)
   "resume.aux"
   "resume.log"
