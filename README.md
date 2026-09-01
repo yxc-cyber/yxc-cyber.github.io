@@ -61,6 +61,7 @@ The publication updater:
 - highlights my name automatically
 - completely rebuilds `publications` from `cite.bib`
 - generates links from BibTeX `url`, `doi`, or `eprint`
+- carries `co_first_author = {true}` into `content.json` and displays a co-first-author badge
 
 By default, the name to highlight is read from `site.hero_name` in `content.json`. To override it:
 

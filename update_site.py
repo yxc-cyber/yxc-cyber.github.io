@@ -155,10 +155,15 @@ def news_items(items: list[dict[str, str]]) -> str:
 def publication_items(items: list[dict[str, object]]) -> str:
     blocks = []
     for item in items:
+        author_note = (
+            '\n            <p class="publication-note">Co-first author</p>'
+            if item.get("co_first_author")
+            else ""
+        )
         blocks.append(
             f'''          <article class="publication">
             <h3>{inline_md(item.get("title", ""))}</h3>
-            <p class="authors">{inline_md(item.get("authors", ""))}</p>
+            <p class="authors">{inline_md(item.get("authors", ""))}</p>{author_note}
             <p class="venue">{inline_md(item.get("venue", ""))}</p>
 {link_group(item.get("links", []))}
           </article>'''

@@ -9,9 +9,9 @@
     "portrait": "assets/portrait.jpg",
     "researcher_star_count": 6,
     "interests": [
-      "Natural Language Processing",
-      "AI Agents",
-      "AI for Scientists"
+      "LLM Agents",
+      "AI for Scientists",
+      "Natural Language Processing"
     ],
     "education": [
       "PhD in Data Science, College of William & Mary",
@@ -77,6 +77,28 @@
       ]
     },
     {
+      "title": "PredAct-Bench: Benchmarking Tool-Augmented Dialogue under Controlled Tool Noise",
+      "authors": "Abdulrahman AlRabah, **Xiaocheng Yang**, Dilek Hakkani-Tür, and Abdussalam Alawini",
+      "venue": "arXiv, 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://arxiv.org/abs/2608.02372"
+        }
+      ]
+    },
+    {
+      "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
+      "authors": "Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, **Xiaocheng Yang**, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, and Dilek Hakkani-Tür",
+      "venue": "arXiv, 2026",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://arxiv.org/abs/2606.22388"
+        }
+      ]
+    },
+    {
       "title": "Goal Alignment in LLM-Based User Simulators for Conversational AI",
       "authors": "Shuhaib Mehri, **Xiaocheng Yang**, Takyoung Kim, Gokhan Tur, Shikib Mehri, and Dilek Hakkani-Tür",
       "venue": "Transactions of the Association for Computational Linguistics, 2026",
@@ -113,6 +135,7 @@
       "title": "MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents",
       "authors": "Kunlun Zhu, Hongyi Du, Zhaochen Hong, **Xiaocheng Yang**, Shuyi Guo, Zhe Wang, Zhenhailong Wang, Cheng Qian, Xiangru Tang, Heng Ji, and Jiaxuan You",
       "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025",
+      "co_first_author": true,
       "links": [
         {
           "label": "Link",

@@ -294,6 +294,8 @@ def publication_from_entry(
         "authors": author_line(fields.get("author", ""), aliases),
         "venue": venue(fields),
     }
+    if fields.get("co_first_author", "").strip().lower() in {"1", "true", "yes"}:
+        publication["co_first_author"] = True
     entry_links = links(fields)
     if entry_links:
         publication["links"] = entry_links

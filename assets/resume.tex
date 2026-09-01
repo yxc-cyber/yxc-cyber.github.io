@@ -1,0 +1,197 @@
+\documentclass[letterpaper]{article}
+
+\usepackage[letterpaper,top=0.46in,bottom=0.46in,left=0.55in,right=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.96]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{parskip}
+
+\definecolor{accent}{HTML}{164E63}
+\definecolor{textgray}{HTML}{333333}
+\definecolor{muted}{HTML}{555555}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdfauthor={Xiaocheng Yang},
+  pdftitle={Xiaocheng Yang - Research Resume}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlength{\emergencystretch}{1.2em}
+\color{textgray}
+
+\titleformat{\section}
+  {\fontsize{10.4}{11.5}\selectfont\bfseries\color{accent}}
+  {}{0pt}{\MakeUppercase}
+  [\vspace{1.4pt}\color{accent}\titlerule]
+\titlespacing*{\section}{0pt}{7.2pt}{4.2pt}
+
+\setlist[itemize]{
+  leftmargin=1.25em,
+  label=\textcolor{accent}{\scriptsize\textbullet},
+  itemsep=2.0pt,
+  topsep=1.0pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}>{\RaggedRight\arraybackslash}X>{\RaggedLeft\arraybackslash}p{1.55in}@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{1.5pt}
+}
+
+\newcommand{\researchentry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}>{\RaggedRight\arraybackslash}X>{\RaggedLeft\arraybackslash}p{1.55in}@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{-0.5pt}
+}
+
+\newcommand{\pub}[4]{%
+  #1 #2 ``\href{#4}{\textbf{#3}}''\par\vspace{1.8pt}
+}
+
+\begin{document}
+\fontsize{9}{10.7}\selectfont
+
+\begin{center}
+  {\fontsize{20}{22}\selectfont\bfseries\color{accent} XIAOCHENG YANG}\\[-1pt]
+  {\fontsize{8.8}{10.5}\selectfont
+  \href{mailto:xyang21@wm.edu}{xyang21@wm.edu}
+  \enspace$\vert$\enspace
+  \href{https://yxc-cyber.github.io/}{Homepage}
+  \enspace$\vert$\enspace
+  \href{https://scholar.google.com/citations?user=hTt0y8kAAAAJ}{Google Scholar}
+  \enspace$\vert$\enspace
+  \href{https://github.com/yxc-cyber}{GitHub}}
+\end{center}
+\vspace{-8pt}
+
+\section{Research Interests}
+LLM Agents \enspace$\cdot$\enspace Multi-Agent Systems \enspace$\cdot$\enspace AI for Scientist \enspace$\cdot$\enspace LLM Reasoning \enspace$\cdot$\enspace Natural Language Processing
+
+\section{Education}
+% TODO: Confirm the anticipated graduation date before submitting.
+\entry{William \& Mary, Williamsburg, VA}{Aug 2026 -- Present}
+      {Ph.D. in Applied Science (Data Science); Advisor: Prof. Qingyun Wang}{Expected May 2031}
+\entry{University of Illinois Urbana-Champaign, Urbana, IL}{Aug 2024 -- May 2026}
+      {M.S. in Computer Science; Advisors: Prof. Gokhan Tur and Prof. Dilek Hakkani-Tür}{GPA: 3.96/4.00}
+\entry{New York University Shanghai, Shanghai, China}{Aug 2020 -- May 2024}
+      {B.S. in Computer Science, Minor in Mathematics; Advisor: Prof. Yik-Cheung (Wilson) Tam}{GPA: 3.92/4.00}
+
+\section{Research Experience}
+\researchentry{Department of Data Science, William \& Mary}{Aug 2026 -- Present}
+              {Graduate Research Assistant $\vert$ Advisor: Prof. Qingyun Wang}{}
+\begin{itemize}
+  \item Investigating \textbf{agentic AI and AI for science}, with a focus on reliable AI systems for scientific knowledge acquisition, reasoning, and discovery.
+\end{itemize}
+
+\researchentry{Siebel School of Computing and Data Science, UIUC}{Aug 2024 -- May 2026}
+              {Graduate Research Assistant $\vert$ Advisors: Prof. Gokhan Tur and Prof. Dilek Hakkani-Tür}{}
+\begin{itemize}
+  \item Developed \textbf{Gradient-Based Connections (GBC)}, a credit-assignment method for optimizing prompts in LLM multi-agent systems; released the method in \href{https://github.com/yxc-cyber/AgentChord}{\textbf{AgentChord}}, an open-source multi-agent framework.
+  \item Designed a prefix-based technique to reduce credit-assignment space complexity to make GBC practically usable; achieved \textbf{99.0\% Inform, 94.0\% Success, and 91.4\% slot F1} on MultiWOZ and \textbf{24.3\%} on $\tau$-bench, outperforming strong single-agent baselines.
+  \item Adapted ReAct to task-oriented dialogue and designed friction-aware prompts to reduce interaction ambiguity, improving MultiWOZ Inform and Success by \textbf{5.5 and 3.0 points}.
+  \item Built LLM-based question-generation and student-simulation systems for K--2 literacy assessment; achieved \textbf{50.4\% MAP@1} with ROUGE-L F1 on FairytaleQA, outperforming prior methods.
+\end{itemize}
+
+\researchentry{Department of Computer Science, NYU Shanghai}{Jun 2023 -- May 2024}
+              {Undergraduate Research Assistant $\vert$ Advisor: Prof. Yik-Cheung (Wilson) Tam}{}
+\begin{itemize}
+  \item Fine-tuned LoRA adapters for LLM arithmetic reasoning; compared chain-of-thought, Prolog generation, and hybrid outputs, and open-sourced the \textbf{GSM8K-Prolog} dataset.
+  \item Evaluated Prolog-permutation data augmentation, improving accuracy over the chain-of-thought baseline by \textbf{10.9 points on GSM8K} and \textbf{22.6 points on GSM-HARD}; analyzed divergence between cross-entropy loss and executable-code accuracy.
+  \item Fine-tuned LLMs for dialogue state tracking across model, data, LoRA, and output-format settings, achieving \textbf{82.4\% joint goal accuracy}, a new state of the art among end-to-end DST methods.
+\end{itemize}
+
+\section{Selected Publications}
+\pub{\textbf{Xiaocheng Yang}, Abdulrahman Alrabah, Dilek Hakkani-Tür, Gokhan Tur.}
+    {\textit{SIGDIAL 2026 (Oral Presentation)}. \href{https://github.com/yxc-cyber/AgentChord}{[Code]}}
+    {GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems}
+    {https://aclanthology.org/2026.sigdial-1.24/}
+
+\pub{\textbf{Xiaocheng Yang}, Sumuk Shashidhar, Dilek Hakkani-T{\"u}r.}
+    {\textit{SLaTE 2025}.}
+    {Question Generation for Assessing Early Literacy Reading Comprehension}
+    {https://www.isca-archive.org/slate_2025/yang25b_slate.html}
+
+\pub{Kunlun Zhu$^\dagger$,
+  Hongyi Du$^\dagger$,
+  Zhaochen Hong$^\dagger$,
+  \textbf{Xiaocheng Yang}$^\dagger$,
+  Shuyi Guo$^\dagger$,
+  Zhe Wang$^\dagger$,
+  et al.}
+    {\textit{ACL 2025, Main Conference}. \href{https://github.com/ulab-uiuc/MARBLE}{[Code]}}
+    {MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents}
+    {https://aclanthology.org/2025.acl-long.421/}
+\vspace{-8pt}
+{\footnotesize\color{muted}
+$^\dagger$ Core contributors; considered co-first authors.
+}
+\vspace{4pt}
+
+\pub{\textbf{Xiaocheng Yang}, Bingsen Chen, Yik-Cheung Tam.}
+    {\textit{NAACL 2024, Main Conferece}. \href{https://github.com/yxc-cyber/ProPer}{[Code]}}
+    {Arithmetic Reasoning with LLM: Prolog Generation \& Permutation}
+    {https://aclanthology.org/2024.naacl-short.61/}
+
+\newpage
+\section{Selected Publications (Continued)}
+
+\pub{Abdulrahman AlRabah, \textbf{Xiaocheng Yang}, Dilek Hakkani-T{\"u}r, Abdussalam Alawini.}
+    {\textit{arXiv preprint, 2026}.}
+    {PredAct-Bench: Benchmarking Tool-Augmented Dialogue under Controlled Tool Noise}
+    {https://arxiv.org/abs/2608.02372}
+
+\pub{Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, \textbf{Xiaocheng Yang}, et al.}
+    {\textit{arXiv preprint, 2026}.}
+    {PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems}
+    {https://arxiv.org/abs/2606.22388}
+
+\pub{Shuhaib Mehri, \textbf{Xiaocheng Yang}, Takyoung Kim, et al.}
+    {\textit{Transactions of the Association for Computational Linguistics (TACL), 2026}.}
+    {Goal Alignment in LLM-Based User Simulators for Conversational AI}
+    {https://doi.org/10.1162/TACL.a.687}
+
+\pub{Nimet Beyza Bozdag, Shuhaib Mehri, \textbf{Xiaocheng Yang}, et al.}
+    {\textit{ACM Computing Surveys, 2026}.}
+    {Must Read: A Comprehensive Survey of Computational Persuasion}
+    {https://doi.org/10.1145/3800687}
+
+\pub{Cheng Qian, Peixuan Han, Qinyu Luo, \ldots, \textbf{Xiaocheng Yang}, et al.}
+    {\textit{ACL 2025, Main Conference}.}
+    {EscapeBench: Towards Advancing Creative Intelligence of Language Model Agents}
+    {https://aclanthology.org/2025.acl-long.39/}
+
+\pub{Vardhan Dongre, \textbf{Xiaocheng Yang}, Emre Can Acikgoz, et al.}
+    {\textit{IWSDS 2025}.}
+    {ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building LLM-Based Conversational AI Agents}
+    {https://aclanthology.org/2025.iwsds-1.7/}
+
+\section{Academic Service}
+\textbf{Reviewer:} NeurIPS 2026; ACL Rolling Review, 2025--2026 (3 cycles)
+
+\section{Honors \& Awards}
+\textbf{Summa Cum Laude}; Honors in Computer Science; NYU Shanghai Excellence Award; Dean's List (2020--2023)
+
+\section{Technical Skills}
+\textbf{Programming:} Python, SQL, Java, R\\
+\textbf{ML / LLM:} PyTorch, Hugging Face Transformers, PEFT, DeepSpeed, torchrun, scikit-learn\\
+\textbf{Data \& Tools:} Pandas, NumPy, Matplotlib, Git, Linux, LaTeX
+
+\end{document}

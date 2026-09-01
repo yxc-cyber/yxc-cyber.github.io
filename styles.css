@@ -585,6 +585,19 @@ a {
   line-height: 1.55;
 }
 
+.publication-note {
+  display: inline-block;
+  margin: 2px 0;
+  border: 2px solid #2f3437;
+  padding: 2px 7px;
+  color: #2f3437;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 .misc-list {
   display: grid;
   gap: 16px;
